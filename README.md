@@ -1,4 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+
+ //-------------------------- *                *                 * ----------------------------//
+Run one of following commands: "yarn server" or "node server.js"
+open new console window and run "npm start"
+open frontend on localhost:3000 (or another port number) in two or more bookmarks
+
+choose room and username, and you can send messages to another members in chat.
+ //-------------------------- *                *                 * ----------------------------//
+
 
 ## Available Scripts
 
