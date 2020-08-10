@@ -1,0 +1,60 @@
+.chatHeader {
+    font-family: Roboto;
+    
+}
+.chatHeader b {
+    text-transform: uppercase; 
+}
+.chat {
+    font-family: Roboto;
+    display: flex;
+}
+.netStatus{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.chatBlock {
+    margin-left: 60px;
+}
+.messagesWindow {
+    height: 400px;
+    min-width: 800px;
+    overflow: scroll;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px 26px;
+}
+.textArea {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    min-width: 800px;
+    height: 80px;
+    outline: none;
+    outline-offset: 0;
+    padding: 20px 26px;
+}
+.textArea:focus {
+    outline: none;
+    outline-offset: 0;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.messageItemOutcome {
+   display: flex;
+   justify-content: flex-end;
+}
+.messageItem {
+    display: flex;
+}
+.messageItem, .messageItemOutcome {
+    margin-bottom: 26px;
+}
+.MuiChip-root {
+    padding: 28px 8px 28px 4px;
+}
